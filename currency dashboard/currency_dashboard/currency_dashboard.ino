@@ -5,8 +5,8 @@
 #include <PubSubClient.h>
 
 // Replace with your network credentials
-const char* ssid     = "Yomali";
-const char* password = "5714geetha";
+const char* ssid     = "ssid";
+const char* password = "password";
 const char* mqtt_server = "Broker.mqttdashboard.com";
 WiFiClient espClient;
 AsyncWebServer server(80);
